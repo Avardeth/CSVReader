@@ -23,7 +23,7 @@ public class CSVParser {
     }
     
     static WriteString ws = new WriteString();
-    static String file;
+    static String file = "";
     
     //read a file and write into a string
     static void fileScan(){
@@ -53,7 +53,8 @@ public class CSVParser {
             if (s.length()>0)
                 s = s.substring(1);
             
-            list.add(WriteString.arrayString);
+            if (!WriteString.arrayString.isEmpty())
+                list.add(WriteString.arrayString);
             
             if (s.isEmpty())
                 break;
