@@ -44,7 +44,7 @@ namespace CSV {
 			Controls.Add(comboBox);
 			
 			Label separatorLabel = new Label();
-			separatorLabel.Text = "Please give 1 or more separator:";
+			separatorLabel.Text = "Please choose a seperator:";
 			separatorLabel.Size = new Size(400,25);
 			separatorLabel.Location = new Point(100,170);
 			separatorLabel.Font = new Font(separatorLabel.Font.FontFamily,14);
@@ -62,7 +62,6 @@ namespace CSV {
 	class ButtonListener : Form {
 		public void buttonListener(object sender, EventArgs e) {
 			InitComponent init = new InitComponent();
-			MessageBox.Show("Success");
 			CreateFile.createFile(CreateWords.createWords(init.file));
 		}
 	}
