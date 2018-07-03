@@ -2,6 +2,7 @@ using System;
 using System.IO;
 using System.Collections;
 using System.Text;
+using System.Windows.Forms;
 
 namespace CSV {
 	class CreateFile : CreateWords {
@@ -23,18 +24,23 @@ namespace CSV {
 						}
 					}
 				}
-			} catch (Exception ex) {
-				Console.WriteLine(ex.ToString());
+			} catch (Exception) {
+				
 			}
 		}
 	}
 
-	class ReadFile {
+	class ReadFile : Form{
 		public static string[] read(string File) {
 			try{
 			string[] lines = System.IO.File.ReadAllLines(File);
 			return lines;
 			} catch (FileNotFoundException){
+				MessageBox.Show("File not found!");
+				string[] lines = new string[1];
+				return lines;
+			} catch (ArgumentException) {
+				MessageBox.Show("Please give a file path!");
 				string[] lines = new string[1];
 				return lines;
 			}
@@ -45,6 +51,7 @@ namespace CSV {
 	class CreateWords : ReadFile {
 		public static ArrayList createWords(string file){
 			ArrayList words = new ArrayList();
+			try{
 			string[] s = read(file);
 			for (int i = 0; i < s.Length; i++){
 				while (s[i].Length > 0){
@@ -57,6 +64,11 @@ namespace CSV {
 					else
 						s[i] = s[i].Remove(0, word.Length);
 				}
+			}
+			} catch (NullReferenceException) {
+				
+			} catch (IndexOutOfRangeException) {
+				MessageBox.Show("Please choose a separator!");
 			}
 			return words;
 		}
