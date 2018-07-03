@@ -48,7 +48,8 @@ namespace CSV {
 			string[] s = read(file);
 			for (int i = 0; i < s.Length; i++){
 				while (s[i].Length > 0){
-					string word = Separate.separate(s[i], Separator.separator);
+					InitComponent init = new InitComponent();
+					string word = Separate.separate(s[i], Separator.separator, init.selectedSeparatorIndex);
 					if (word.Length > 0)
 						words.Add(word);
 					if (s[i].Length > word.Length)
@@ -62,21 +63,19 @@ namespace CSV {
 	}
 
 	class Separate {
-		public static string separate(string line, char[] separator) {
+		public static string separate(string line, char[] separator, int index) {
 			string word = "";
 			for (int i = 0; i < line.Length; i++){
-				bool equal = true;
-				for (int j = 0; j < separator.Length; j++){
-					if (line[i] == separator[j]){
-						equal = false;
-						break;
-					}
-					else if (line[i] != separator[j] && j == separator.Length-1)
-						word += line[i];
-				}
-				if (!equal)
+				if (line[i] == separator[index]){
 					break;
+				}
+				else if (line[i] != separator[index]) {
+					word += line[i];
+					if (i == line.Length-1)
+						break;
+				}
 			}
+			word = word.Trim();
 			return word;
 		}
 	}
