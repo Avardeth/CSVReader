@@ -18,7 +18,8 @@ namespace CSV {
 	class InitComponent : ButtonListener{
 		public static TextBox filePath = new TextBox();
 		public string file = filePath.Text;
-		//public static TextBox separatorBox = new TextBox();	// Not implemented
+		public static ComboBox comboBox = new ComboBox();
+		public int selectedSeparatorIndex = comboBox.SelectedIndex;
 		public void initComponent() {
 			Size = new Size(800,600);
 			StartPosition = FormStartPosition.CenterScreen;
@@ -35,19 +36,19 @@ namespace CSV {
 			filePath.Font = new Font(filePath.Font.FontFamily,14);
 			Controls.Add(filePath);
 			
-			/* Not implemented
+			comboBox.Size = new Size(200,25);
+			comboBox.Location = new Point(100,200);
+			comboBox.Font = new Font(comboBox.Font.FontFamily,14);
+			string[] separator = {"Comma (,)", "Dot (.)", "Semi Colon (;)", "ForwardSlash (/)", "BackSlash (\\)", "Space ( )"};
+			comboBox.Items.AddRange(separator);
+			Controls.Add(comboBox);
+			
 			Label separatorLabel = new Label();
 			separatorLabel.Text = "Please give 1 or more separator:";
 			separatorLabel.Size = new Size(400,25);
 			separatorLabel.Location = new Point(100,170);
 			separatorLabel.Font = new Font(separatorLabel.Font.FontFamily,14);
 			Controls.Add(separatorLabel);
-			
-			separatorBox.Size = new Size(400,25);
-			separatorBox.Location = new Point(100,200);
-			separatorBox.Font = new Font(separatorBox.Font.FontFamily,14);
-			Controls.Add(separatorBox);
-			*/
 			
 			Button startButton = new Button();
 			startButton.Text = "Start";
