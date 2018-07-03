@@ -54,6 +54,7 @@ namespace CSV {
 			startButton.Text = "Start";
 			startButton.Location = new Point(350,400);
 			startButton.Size = new Size(100,50);
+			startButton.Font = new Font(startButton.Font.FontFamily,18);
 			Controls.Add(startButton);
 			startButton.Click += new EventHandler(buttonListener);
 		}
