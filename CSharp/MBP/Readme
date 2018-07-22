@@ -1,1 +1,18 @@
+MBP - (production title)
 
+I made this project for hobby, learning and of course as a means to let my future employers to know what I'm capable of.
+I know the user interface and the coder seems poor or you could say ugly and unprofessional, but I'm still working on it, while tring to stay true to "Solid" and "Clean Code" principles.
+
+I got this idea from my current working place. There we test and repair modems and set top boxes.
+This place we have a webpage made with HTML, Javascript, PHP. We use this webpage to know what should we do with the given unit. Example: if it's in test waiting status then we need to test it.
+
+The process:
+1. Booking in: registering the unit and its basic data (like manufacturer, type) in the database and give a status
+2. Testing
+3. Cleaning
+4. Packaging
+5. Quality
+6. Booking out: in this state the given unit won't be deleted, only change the status to "inactive"
++ 7. Repairing/Debugging: in process 2-4., if the unit has a defect, it can be sent to this state where we identify the problematic part and repair it or sent it to soldering
++ 8. Soldering: repair the unit then sending it to Repairing/Debugging again
++ 9. Repairing/Debugging: Rechecking if the problem was solved, then sending it to test
