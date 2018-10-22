@@ -1,0 +1,206 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<resume>
+	<header lang="hun">
+		<mainpage>&lt;a href="../index.php" class="mainpage"&gt;Főoldal&lt;/a&gt;</mainpage>
+		<title>Önéletrajz</title>
+	</header>
+	<header lang="eng">
+		<mainpage>&lt;a href="../index.php" class="mainpage"&gt;Homepage&lt;/a&gt;</mainpage>
+		<title>Resume</title>
+	</header>
+	<start lang="hun">
+		<start1>Önéletrajz</start1>
+		<start2></start2>
+	</start>
+	<image>pic/myself.jpg</image>
+	<myself lang="hun">
+		<name>Név: Kósa Gyula</name>
+		<birth>Szül. hely, idő: Budapest, 1988.01.28.</birth>
+		<address>Lakcím: 1183 Bp.</address>
+		<github>https://github.com/Avardeth</github>
+		<linkedin></linkedin>
+	</myself>
+	<myself lang="eng">
+		<name>Name: Kósa Gyula</name>
+		<birth>Date and place of birth: Budapest, 1988.01.28.</birth>
+		<address>Address: 1183 Bp.</address>
+		<github>https://github.com/Avardeth</github>
+		<linkedin></linkedin>
+	</myself>
+	<edu lang="hun">
+		<title>&lt;h1&gt;Tanulmányok&lt;/h1&gt;</title>
+		<school4>&lt;h2&gt;Mérnökinformatikus&lt;br /&gt;
+		2016. szept. - jelenleg&lt;/h2&gt;
+		&lt;p&gt;Gábor Dénes Főiskola, Budapest(Magyarország)&lt;br /&gt;
+		Mérnökinformatika szak - Szoftverfejlesztő szakirány (távoktatás)&lt;/p&gt;</school4>
+		<!--<school3>&lt;h2 style=color:gray&gt;Nem befejezett (Gépészmérnök)&lt;br /&gt;
+		2010. szept. - 2016. jan.&lt;/h2&gt;
+		&lt;p&gt;Szent István Egyetem, Gödöllő(Magyarország)&lt;br /&gt;
+		Gépészmérnök szak - Járműelektronika szakirány&lt;/p&gt;</school3>
+		<school2>&lt;h2 style=color:gray&gt;Nem befejezett (Gépészmérnök)&lt;br /&gt;
+		2008. szept. - 2010. aug.&lt;/h2&gt;
+		&lt;p&gt;Zrínyi Miklós Nemzetvédelmi Egyetem, Budapest(Magyarország)&lt;br /&gt;
+		Gépészmérnök szak - CNC szakirány&lt;/p&gt;</school2>-->
+		<school1>&lt;h2&gt;Híradásipari technikus&lt;br /&gt;
+		2006. szept. - 2008. júl.&lt;/h2&gt;
+		&lt;p&gt;Pataky István Híradásipari és Informatikai Szakközépiskola, Budapest(Magyarország)&lt;/p&gt;</school1>
+	</edu>
+	<!-- Translate -->
+	<edu lang="eng">
+		<title>&lt;h1&gt;Education&lt;/h1&gt;</title>
+		<school4>&lt;h2&gt;Engineering Information Technology&lt;br /&gt;
+		2016. sept. - now&lt;/h2&gt;
+		&lt;p&gt;Gábor Dénes University, Budapest(Hungary)&lt;br /&gt;
+		Engineering Information Technology - Softwer Development Specialization (Distance learning)&lt;/p&gt;</school4>
+		<!--<school3>&lt;h2 style=color:gray&gt;Nem befejezett (Gépészmérnök)&lt;br /&gt;
+		2010. szept. - 2016. jan.&lt;/h2&gt;
+		&lt;p&gt;Szent István Egyetem, Gödöllő(Hungary)&lt;br /&gt;
+		Gépészmérnök szak - Járműelektronika szakirány&lt;/p&gt;</school3>
+		<school2>&lt;h2 style=color:gray&gt;Nem befejezett (Gépészmérnök)&lt;br /&gt;
+		2008. szept. - 2010. aug.&lt;/h2&gt;
+		&lt;p&gt;Zrínyi Miklós Nemzetvédelmi Egyetem, Budapest(Hungary)&lt;br /&gt;
+		Gépészmérnök szak - CNC szakirány&lt;/p&gt;</school2>-->
+		<school1>&lt;h2&gt;Electronic Technician&lt;br&gt;
+		2006. sept. - 2008. july&lt;/h2&gt;
+		&lt;p&gt;Pataky István Híradásipari és Informatikai Szakközépiskola, Budapest(Hungary)&lt;/p&gt;</school1>
+	</edu>
+	<work lang="hun">
+		<work1>&lt;h1 style=text-align:center&gt;Munkatapasztalat&lt;/h1&gt;&lt;br&gt;</work1>
+		<work2>&lt;h2&gt;Elektronikai Technikus&lt;br&gt;2015. szept. - jelenleg&lt;/h2&gt;&lt;p&gt;CTDI Kft., Budapest(Magyarország)&lt;br&gt;&lt;strong&gt;Főbb tevékenységek:&lt;/strong&gt; Beltéri egységek tesztje, hiba feltárása&lt;/p&gt;</work2>
+		<work3>&lt;h2&gt;Gépészmérnök Gyakornok&lt;br&gt;2014. júl. - 2015. szept.&lt;/h2&gt;&lt;p&gt;Robert Bosch Elektronika Kft., Hatvan(Magyarország)&lt;br&gt;&lt;strong&gt;Főbb tevékenységek:&lt;/strong&gt; CetaQ gépképesség mérés, 3D nyomtatás&lt;/p&gt;</work3>
+		<work4>&lt;h2&gt;IT Gyakornok&lt;br&gt;2013. júl. - 2013. dec.&lt;/h2&gt;&lt;p&gt;Robert Bosch Elektronika Kft., Hatvan(Magyarország)&lt;br&gt;&lt;strong&gt;Főbb tevékenységek:&lt;/strong&gt; IT asszisztens munkájának segítése (MySQL, PHP, személyi számítógépek javítása, telepítése)&lt;/p&gt;</work4>
+	</work>
+	<!-- Translate -->
+	<work lang="eng">
+		<work1>&lt;h1 style=text-align:center&gt;Work experience&lt;/h1&gt;&lt;br&gt;</work1>
+		<work2>&lt;h2&gt;Debug Technician(electronic)&lt;br&gt;2015. sept. - now&lt;/h2&gt;&lt;p&gt;CTDI Kft., Budapest(Hungary)&lt;br&gt;&lt;strong&gt;Main activities:&lt;/strong&gt; Modem testing, debugging&lt;/p&gt;</work2>
+		<work3>&lt;h2&gt;Mechanical Engineering Trainee&lt;br&gt;2014. july - 2015. sept.&lt;/h2&gt;&lt;p&gt;Robert Bosch Elektronika Kft., Hatvan(Hungary)&lt;br&gt;&lt;strong&gt;Main activities:&lt;/strong&gt; CetaQ measurements, 3D printing&lt;/p&gt;</work3>
+		<work4>&lt;h2&gt;IT Trainee&lt;br&gt;2013. july - 2013. dec.&lt;/h2&gt;&lt;p&gt;Robert Bosch Elektronika Kft., Hatvan(Hungary)&lt;br&gt;&lt;strong&gt;Main activities:&lt;/strong&gt; helping the IT assistant's work (MySQL, PHP, PC repairing, installing)&lt;/p&gt;</work4>
+	</work>
+	<langkn lang="hun">
+		<title>&lt;h1 style=text-align:center&gt;Nyelvismeret&lt;/h1&gt;&lt;br&gt;</title>
+		<mothlang>&lt;h2&gt;Anyanyelv: Magyar&lt;/h2&gt;&lt;br&gt;</mothlang>
+		<otherlang>&lt;h2&gt;Egyéb nyelvismeret: Angol&lt;/h2&gt;&lt;br&gt;</otherlang>
+		<thead1>&lt;th colspan="2"&gt;Szövegértés&lt;/th&gt;</thead1>
+		<thead2>&lt;th colspan="2"&gt;Beszéd&lt;/th&gt;</thead2>
+		<thead3>&lt;th&gt;Írás&lt;/th&gt;</thead3>
+		<tbody1>&lt;td&gt;Hallás utáni értés&lt;/td&gt;</tbody1>
+		<tbody2>&lt;td&gt;Olvasás&lt;/td&gt;</tbody2>
+		<tbody3>&lt;td&gt;Társalgás&lt;/td&gt;</tbody3>
+		<tbody4>&lt;td&gt;Folyamatos beszéd&lt;/td&gt;</tbody4>
+		<tbody5>&lt;td&gt;&lt;/td&gt;</tbody5>
+		<value1>&lt;td&gt;B1&lt;/td&gt;</value1>
+		<value2>&lt;td&gt;B1&lt;/td&gt;</value2>
+		<value3>&lt;td&gt;B1&lt;/td&gt;</value3>
+		<value4>&lt;td&gt;B1&lt;/td&gt;</value4>
+		<value5>&lt;td&gt;B1&lt;/td&gt;</value5>
+		<link>&lt;p&gt;&lt;a href="https://europass.cedefop.europa.eu/hu/resources/european-language-levels-cefr" target="_blank"&gt;Európai nyelvi szintek - Önértékelési táblázat&lt;/a&gt;&lt;/p&gt;</link>
+	</langkn>
+	<langkn lang="eng">
+		<title>&lt;h1 style=text-align:center&gt;Languages&lt;/h1&gt;&lt;br&gt;</title>
+		<mothlang>&lt;h2&gt;Mother language: Hungarian&lt;/h2&gt;&lt;br&gt;</mothlang>
+		<otherlang>&lt;h2&gt;Other languages: English&lt;/h2&gt;&lt;br&gt;</otherlang>
+		<thead1>&lt;th colspan="2"&gt;UNDERSTANDING&lt;/th&gt;</thead1>
+		<thead2>&lt;th colspan="2"&gt;SPEAKING&lt;/th&gt;</thead2>
+		<thead3>&lt;th&gt;WRITING&lt;/th&gt;</thead3>
+		<tbody1>&lt;td&gt;Listening&lt;/td&gt;</tbody1>
+		<tbody2>&lt;td&gt;Reading&lt;/td&gt;</tbody2>
+		<tbody3>&lt;td&gt;Spoken interaction&lt;/td&gt;</tbody3>
+		<tbody4>&lt;td&gt;Spoken production&lt;/td&gt;</tbody4>
+		<tbody5>&lt;td&gt;&lt;/td&gt;</tbody5>
+		<value1>&lt;td&gt;B1&lt;/td&gt;</value1>
+		<value2>&lt;td&gt;B1&lt;/td&gt;</value2>
+		<value3>&lt;td&gt;B1&lt;/td&gt;</value3>
+		<value4>&lt;td&gt;B1&lt;/td&gt;</value4>
+		<value5>&lt;td&gt;B1&lt;/td&gt;</value5>
+		<link>&lt;p&gt;&lt;a href="https://europass.cedefop.europa.eu/resources/european-language-levels-cefr" target="_blank"&gt;European language levels - Self Assessment Grid&lt;/a&gt;&lt;/p&gt;</link>
+	</langkn>
+	<skill lang="hun">
+		<skill1>&lt;h1 style=text-align:center&gt;Készségeim&lt;/h1&gt;</skill1>
+		<skill2>&lt;p&gt;&lt;strong&gt;Pozitív tulajdonságaim:&lt;/strong&gt;&lt;/p&gt;</skill2>
+		<skill3>&lt;ul style="list-style-type:circle"  id="pozSkill"&gt;</skill3>
+		<skill4>&lt;li&gt;&lt;em&gt;Gyors tanulás&lt;/li&gt;&lt;/em&gt;</skill4>
+		<skill5>&lt;li&gt;&lt;em&gt;Pontosság&lt;/li&gt;&lt;/em&gt;</skill5>
+		<!--<skill6>&lt;p&gt;Jellemző rám, hogy inkább vagyok ott valahol fél órával
+		&lt;br /&gt;korábban mintsem, hogy akárcsak 5 percet is kések.
+		&lt;br /&gt;Ugyan így vagyok ezzel a munkám kapcsán is. Szeretem az adott feladatomat
+		&lt;br /&gt;korábban megcsinálni és később (ha időm engedi) javítani rajta, mégha csak kinézet kapcsán is.&lt;/p&gt;</skill6>-->
+		<skill7>&lt;li&gt;&lt;em&gt;Szorgalom&lt;/li&gt;&lt;/em&gt;</skill7>
+		<!--<skill8>&lt;p&gt;Szorgalmamra úgy gondolom elég jó példa ez a HTML  CSS program
+		&lt;br /&gt;melyet szabadidőmben a neten keresztül sajátítottam el.&lt;/p&gt;</skill8>-->
+		<skill9>&lt;li&gt;&lt;em&gt;Precizitás&lt;/li&gt;&lt;/em&gt;</skill9>
+		<skill11>&lt;li&gt;&lt;em&gt;Probléma megoldó hozzáállás&lt;/li&gt;&lt;/em&gt;</skill11>
+		<skill12>&lt;li&gt;&lt;em&gt;Folyamat szemlélet&lt;/li&gt;&lt;/em&gt;</skill12>
+		<skill13>&lt;li&gt;&lt;em&gt;Rendszer szemlélet&lt;/li&gt;&lt;/em&gt;</skill13>
+		<skill10>&lt;/ul&gt;</skill10>
+	</skill>
+	<!-- Translate -->
+	<skill lang="eng">
+		<skill1>&lt;h1 style=text-align:center&gt;Soft skills&lt;/h1&gt;</skill1>
+		<skill2>&lt;p&gt;&lt;strong&gt;Pozitive features:&lt;/strong&gt;&lt;/p&gt;</skill2>
+		<skill3>&lt;ul style="list-style-type:circle"  id="pozSkill"&gt;</skill3>
+		<skill4>&lt;li&gt;&lt;em&gt;Fast learning&lt;/li&gt;&lt;/em&gt;</skill4>
+		<skill5>&lt;li&gt;&lt;em&gt;Precision&lt;/li&gt;&lt;/em&gt;</skill5>
+		<!--<skill6>&lt;p&gt;Jellemző rám, hogy inkább vagyok ott valahol fél órával
+		&lt;br /&gt;korábban mintsem, hogy akárcsak 5 percet is kések.
+		&lt;br /&gt;Ugyan így vagyok ezzel a munkám kapcsán is. Szeretem az adott feladatomat
+		&lt;br /&gt;korábban megcsinálni és később (ha időm engedi) javítani rajta, mégha csak kinézet kapcsán is.&lt;/p&gt;</skill6>-->
+		<skill7>&lt;li&gt;&lt;em&gt;Diligence&lt;/li&gt;&lt;/em&gt;</skill7>
+		<!--<skill8>&lt;p&gt;Szorgalmamra úgy gondolom elég jó példa ez a HTML  CSS program
+		&lt;br /&gt;melyet szabadidőmben a neten keresztül sajátítottam el.&lt;/p&gt;</skill8>-->
+		<skill9>&lt;li&gt;&lt;em&gt;Exactitude&lt;/li&gt;&lt;/em&gt;</skill9>
+		<skill11>&lt;li&gt;&lt;em&gt;Problem solving attitude&lt;/li&gt;&lt;/em&gt;</skill11>
+		<skill12>&lt;li&gt;&lt;em&gt;Process thinking&lt;/li&gt;&lt;/em&gt;</skill12>
+		<skill13>&lt;li&gt;&lt;em&gt;System thinking&lt;/li&gt;&lt;/em&gt;</skill13>
+		<skill10>&lt;/ul&gt;</skill10>
+	</skill>
+	<prog lang="hun">
+		<title>&lt;h2&gt;Programozás&lt;/h2&gt;</title>
+		<proglang>Programozási nyelvek:</proglang>
+		<proglang>HTML5, CSS3, Java, C#, Javascript(JQuery), PHP, MySQL&lt;br /&gt;</proglang>
+		<progpar>Egyéb programozási ismeretek:</progpar>
+		<progpar>OOP, SOLID, MVC, AJAX&lt;br /&gt;</progpar>
+		<title2>&lt;h2&gt;Saját munkáim:&lt;/h2&gt;</title2>
+		<url>kosagyula.atwebpages.com</url>
+		<url2>https://github.com/avardeth</url2>
+	</prog>
+	<prog lang="eng">
+		<title>&lt;h2&gt;Programming&lt;/h2&gt;</title>
+		<proglang>Programming languages:</proglang>
+		<proglang>HTML5, CSS3, Java, C#, Javascript(JQuery), PHP, MySQL&lt;br /&gt;</proglang>
+		<progpar>Other programming knowledge:</progpar>
+		<progpar>OOP, SOLID, MVC, AJAX&lt;br /&gt;</progpar>
+		<title2>&lt;h2&gt;Personal projects:&lt;/h2&gt;</title2>
+		<url>kosagyula.atwebpages.com</url>
+		<url2>https://github.com/avardeth</url2>
+	</prog>
+	<fin lang="hun"></fin>
+
+	<list lang="hun">
+		<start>Kezdőoldal</start>
+		<myself>Saját adataim</myself>
+		<edu>Tanulmányok</edu>
+		<work>Munkatapasztalat</work>
+		<langkn>Nyelvismeret</langkn>
+		<skill>Készségeim</skill>
+		<prog>Programozás</prog>
+		<fin>Zárszó</fin>
+	</list>
+	<list lang="eng">
+		<start>Start page</start>
+		<myself>Personal information</myself>
+		<edu>Education</edu>
+		<work>Work experience</work>
+		<langkn>Languages</langkn>
+		<skill>Soft skills</skill>
+		<prog>Programming</prog>
+		<fin>Afterword</fin>
+	</list>
+	<footer lang="hun">
+		<foot>Tesztelve: Chrome, FireFox. Készítette: Kósa Gyula Frissítve: 2018.09.24.</foot>
+	</footer>
+	<footer lang="eng">
+		<foot>Tested: Chrome, FireFox. Made by Kósa Gyula Last updated: 2018.09.24.</foot>
+	</footer>
+</resume>

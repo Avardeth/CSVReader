@@ -1,0 +1,92 @@
+body {
+	font-family: Poppins, Arial, san-serif;
+	margin: -1px;
+}
+
+#update{
+	font-size: 10px;
+	text-align: bottom;
+}
+
+#container, form{
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-bottom: 10px;
+	font-size: 18px;
+}
+
+form {
+	margin-top: 15px;
+}
+
+#header {
+	background: url("myself_corrected.jpg") no-repeat;
+	background-size: cover;
+	font-size: 40px;
+	padding-left: 15px;
+	padding-bottom: 22%;
+	padding-top: 22%;
+	color: white;
+}
+
+.list {
+	display: inline-grid;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	font-size: 20px;
+	color: wheat;
+	text-decoration: none !important;
+}
+
+a:-webkit-any-link{
+text-decoration:none !important;
+}
+
+.list:hover{
+	background-color: red;
+	cursor: pointer;
+	color : white;
+}
+
+.list:active {
+	background-color: green;
+}
+
+.title {
+	background-color: #20948b;
+	color: white;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+.list span {
+	font-size: 16px;
+}
+
+#welcome {
+	padding: 1px 20px;
+	background-color: orange;
+	font-size: 20px;
+}
+
+#csharp {
+	float: left;
+	margin-bottom: 10px;
+}
+
+#csharp fieldset{
+	border: 1px solid orange;
+}
+
+#java fieldset{
+	border: 1px solid red;
+}
+
+#portfolio {
+	margin-top: -25px;
+	background-color: #de7a22;
+	padding-bottom: 10px;
+}

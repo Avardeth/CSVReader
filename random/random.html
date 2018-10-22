@@ -1,0 +1,54 @@
+<html>
+
+<head>
+<title>Véletlenszám generáló</title>
+</head>
+
+<body>
+
+<h2>Kérlek add meg mely két szám között szeretnél véletlen számot keresni:</h2>
+
+<form action="">
+Elsõ szám:<input type="text" id="num1"><br><br>
+Második szám:<input type="text" id="num2"><br><br>
+</form>
+
+
+<script>
+
+function random(){
+
+var num1 = parseInt(document.getElementById("num1").value);
+var num2 = parseInt(document.getElementById("num2").value);
+
+if (num1 > num2){
+	var nums = num1;
+	num1 = num2;
+	num2 = nums;
+} else if (num1 == num2){
+	var ans = num1;
+}
+
+if (isNaN(num1) || isNaN(num2)){
+	var ans = 'Kérlek mindenképp csak számot adj meg!';
+} else { 
+	var ans =  Math.floor(Math.random() * (num2 - num1)) + num1;
+}
+
+	document.getElementById("demo").innerHTML = ans;
+
+}
+
+</script>
+
+<button onclick="random()">Generál</button><br><br>
+
+
+
+Generált szám: <p id = "demo"></p>
+
+<a href="../index.php" class="mainpage">Fõoldal</a>
+
+</body>
+
+</html>

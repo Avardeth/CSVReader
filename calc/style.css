@@ -1,0 +1,79 @@
+#container {
+  background-color: lightblue;
+  border: 1px solid black;
+  display: grid;
+  grid-gap: 1px;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  padding: 10px;
+  grid-template-areas: 
+    'chain chain chain chain chain'
+    'text text text text text'
+    'memclear memread memsave memplus memminus'
+    'back CE clear sign root'
+    'seven eight nine divide percent'
+    'four five six multiply reproc'
+    'one two three minus result'
+    'zero zero comma plus result';
+}
+
+div button {
+  #height: 3rem;
+  #width: 3rem;
+}
+
+#one {grid-area: one;}
+#two {grid-area: two;}
+#three {grid-area: three;}
+#four {grid-area: four;}
+#five {grid-area: five;}
+#six {grid-area: six;}
+#seven {grid-area: seven;}
+#eight {grid-area: eight;}
+#nine {grid-area: nine;}
+#zero {grid-area: zero;}
+#plus {grid-area: plus;}
+#minus {grid-area: minus;}
+#divide {grid-area: divide;}
+#multiply {grid-area: multiply;}
+#result {grid-area: result;}
+#comma {grid-area: comma;}
+#reproc {grid-area: reproc;}
+#back {grid-area: back;}
+#CE {grid-area: CE;}
+#clear {grid-area: clear;}
+#text {grid-area: text;}
+#chain {grid-area: chain;}
+#sign {grid-area: sign;}
+#root {grid-area: root;}
+#memclear {grid-area: memclear;}
+#memread {grid-area: memread;}
+#memsave {grid-area: memsave;}
+#memplus {grid-area: memplus;}
+#memminus {grid-area: memminus;}
+
+#text {
+  font-size: 20px;
+  resize: none;
+  border: 1px solid black;
+  margin: 1px;
+  height: 50px;
+  text-align: right;
+  border-top-style: none;
+}
+
+#chain {
+  font-size: 15px;
+  resize: none;
+  border: 1px solid black;
+  margin: 1px;
+  height: 30px;
+  text-align: right;
+  margin-bottom: -17px;
+  border-bottom-style: none;
+}
+
+.inactive {
+  background-color: red;
+}
