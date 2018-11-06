@@ -73,13 +73,10 @@ app.get('/profile/:id', (req, res) => {
 })
 
 app.put('/image', (req, res) => {
-  console.log(req);
-
   database.users.forEach(user => {
-    //console.log(user.email);
     if (user.id === req.body.id) {
       user.entries++;
-      return res.json(user);
+      res.json(user);
     }
   });
   res.json('nope');
